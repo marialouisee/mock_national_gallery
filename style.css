@@ -1,6 +1,6 @@
 body {
     background-color: #F2F2F2;
-    /* width: 100vw; */
+    color: rgb(63, 63, 63);
 }
 
 /* Nav BAR /////////////////////// */
@@ -77,6 +77,7 @@ body {
 .section-one p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    line-height: 1.5;
 }
 
 .section-one h3 {
@@ -128,6 +129,27 @@ body {
     box-shadow: 0px 0px 4px rgba(209, 209, 209, 0.651);
 }
 
+/* card contents */
 .sub-section div {
     width: 280px;
+}
+
+.sub-section p {
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.sub-section h4 {
+    padding-bottom: 15px;
+    border-bottom: 0.3px solid rgb(214, 214, 214);
+    font-weight: normal;
+}
+
+
+.mid-header {
+    width: 1030px;
+    margin: 0 auto;
+
 }
